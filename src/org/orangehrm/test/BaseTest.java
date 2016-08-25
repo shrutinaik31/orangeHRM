@@ -3,6 +3,7 @@ package org.orangehrm.test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 
 public class BaseTest 
 {
@@ -21,5 +22,10 @@ public class BaseTest
 	public void afterMethod()
 	{
 		//driver.close();
+	}
+	@AfterSuite
+	public void afterSuitMethod()
+	{
+		driver.close();
 	}
 }
