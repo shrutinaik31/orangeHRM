@@ -3,6 +3,7 @@ package org.orangehrm.page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 
 public class HomePage 
 {
@@ -20,6 +21,12 @@ public class HomePage
 	
 	@FindBy(how = How.ID,using = "menu_onboarding_defaultMenuView")
 	private WebElement onBoardingTab;
+	
+	@FindBy(how = How.ID,using ="menu_performance_viewMyAppraisals")
+	private WebElement performanceTab;
+	
+	@FindBy(how = How.ID, using = "menu_performance_Goals")
+	private WebElement goalsTab;
 	
 	public void clickMyInfoTab()
 	{
@@ -45,7 +52,17 @@ public class HomePage
 		onBoardingTab.click();
 	}
 	
+	public void clickPerformanceTab()
+	{
+		performanceTab.click();
+	}
 	
+	public void selectGoalsTab(String GoalsTab )
+	{
+		Select GoalsTabobj = new Select(goalsTab);
+		GoalsTabobj.selectByVisibleText(GoalsTab);
+				
+	}
 	
 	
 }

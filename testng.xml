@@ -20,4 +20,15 @@
 		</classes>
 	</test>
 	
+	<test name = "performanceTest">
+	
+	<classes>
+	<class name="org.orangehrm.test..PerformanceTest"></class>
+	
+	
+	</classes>
+	
+	
+	</test>
+	
 </suite>
