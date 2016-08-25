@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="OrangeSmokeTestSuite">
+	<test name="loginTest">
+		<classes>
+			<class name="org.orangehrm.test.LoginTest">		
+			</class>
+		</classes>	
+	</test>
+	
+	<test name="myInfoTest">
+		<classes>
+			<class name="org.orangehrm.test.MyInfoTest"></class>		
+		</classes>
+	</test>
+	
+	<test name="onBoardingTest">
+		<classes>
+			<class name="org.orangehrm.test.OnBoardingTest"></class>
+		</classes>
+	</test>
+	
+</suite>

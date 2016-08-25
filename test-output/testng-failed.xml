@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeSmokeTestSuite]">
+  <test name="onBoardingTest(failed)">
+    <classes>
+      <class name="org.orangehrm.test.MyInfoTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- org.orangehrm.test.MyInfoTest -->
+      <class name="org.orangehrm.test.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- org.orangehrm.test.LoginTest -->
+      <class name="org.orangehrm.test.OnBoardingTest">
+        <methods>
+          <include name="myTaskInformation" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- org.orangehrm.test.OnBoardingTest -->
+    </classes>
+  </test> <!-- onBoardingTest(failed) -->
+</suite> <!-- Failed suite [OrangeSmokeTestSuite] -->

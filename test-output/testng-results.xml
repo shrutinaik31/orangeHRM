@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeSmokeTestSuite" duration-ms="46516" started-at="2016-08-23T03:36:08Z" finished-at="2016-08-23T03:36:54Z">
+    <groups>
+    </groups>
+    <test name="loginTest" duration-ms="20833" started-at="2016-08-23T03:36:08Z" finished-at="2016-08-23T03:36:29Z">
+      <class name="org.orangehrm.test.LoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="beforeMethod" is-config="true" duration-ms="34" started-at="2016-08-22T22:36:08Z" finished-at="2016-08-22T22:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTestMethod(java.lang.String, java.lang.String)[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="loginTestMethod" duration-ms="8522" started-at="2016-08-22T22:36:09Z" data-provider="loginData" finished-at="2016-08-22T22:36:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-22T22:36:17Z" finished-at="2016-08-22T22:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-08-22T22:36:17Z" finished-at="2016-08-22T22:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTestMethod(java.lang.String, java.lang.String)[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="loginTestMethod" duration-ms="6099" started-at="2016-08-22T22:36:17Z" data-provider="loginData" finished-at="2016-08-22T22:36:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-22T22:36:23Z" finished-at="2016-08-22T22:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-08-22T22:36:23Z" finished-at="2016-08-22T22:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTestMethod(java.lang.String, java.lang.String)[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="loginTestMethod" duration-ms="5456" started-at="2016-08-22T22:36:23Z" data-provider="loginData" finished-at="2016-08-22T22:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anthony.nolan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anthony.nolan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.orangehrm.test.LoginTest@55536d9e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-22T22:36:29Z" finished-at="2016-08-22T22:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.orangehrm.test.LoginTest -->
+    </test> <!-- loginTest -->
+    <test name="myInfoTest" duration-ms="13503" started-at="2016-08-23T03:36:29Z" finished-at="2016-08-23T03:36:42Z">
+      <class name="org.orangehrm.test.MyInfoTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.orangehrm.test.MyInfoTest@1ba9117e]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2016-08-22T22:36:29Z" finished-at="2016-08-22T22:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="editPersonalDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.orangehrm.test.MyInfoTest@1ba9117e]" name="editPersonalDetails" duration-ms="13483" started-at="2016-08-22T22:36:29Z" data-provider="myInfo" finished-at="2016-08-22T22:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shravani]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rao]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPersonalDetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.orangehrm.test.MyInfoTest@1ba9117e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-22T22:36:42Z" finished-at="2016-08-22T22:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.orangehrm.test.MyInfoTest -->
+    </test> <!-- myInfoTest -->
+    <test name="onBoardingTest" duration-ms="12106" started-at="2016-08-23T03:36:42Z" finished-at="2016-08-23T03:36:54Z">
+      <class name="org.orangehrm.test.OnBoardingTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.orangehrm.test.OnBoardingTest@1e6454ec]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-08-22T22:36:42Z" finished-at="2016-08-22T22:36:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTaskInformation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.orangehrm.test.OnBoardingTest@1e6454ec]" name="myTaskInformation" duration-ms="12098" started-at="2016-08-22T22:36:42Z" data-provider="onBoardingInfo" finished-at="2016-08-22T22:36:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda.anderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Recollect Assets]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Resignation of Kai, Maggie and Dylan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2015-01-12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kai Keegan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Complete]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[With Archived]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTaskInformation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.orangehrm.test.OnBoardingTest@1e6454ec]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-08-22T22:36:54Z" finished-at="2016-08-22T22:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.orangehrm.test.OnBoardingTest -->
+    </test> <!-- onBoardingTest -->
+  </suite> <!-- OrangeSmokeTestSuite -->
+</testng-results>
